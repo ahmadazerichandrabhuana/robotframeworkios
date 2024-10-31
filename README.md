@@ -16,9 +16,9 @@ This is a sample Test Automation for iOS Apps using Robot Framework with Appium 
    pip install -r requirements.txt
    ```
 6. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/), and update JAVA_HOME to your PATH file You can refer [here](https://medium.com/@omurdenden/set-java-home-and-bin-directory-for-appium-testing-in-macos-f8cee3fe56b4) or Google it.
-7. Install [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12), and XCode Command Line Tools (`xcode-select --install`)
+7. Install [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12), and XCode Command Line Tools (`xcode-select --install`).
 8. Install [Node](https://nodejs.org/en/download/package-manager).
-9. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/).
+9. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/) and install appium driver `xcuitest`.
 10. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK, trouble shoot if any red "x" appears (you need to google it yourself).
 11. Download and install this [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases) into your iOS Device (.ipa file) or iOS Simulator (.zip file, extract and put the extracted file into iOS Simulator). Credit to [Wim Selles](https://github.com/wswebcreation).
 
