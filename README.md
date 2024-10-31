@@ -74,4 +74,4 @@ This sample Test Automation consists of 3 main folders :
    Contains test cases
    ```
 
-Apart from these 3 folders, this sample also using 'env.yaml' file to store configuration-specific data.
+Apart from these 3 folders, this sample also using `env.yaml` file to store configuration-specific data.
