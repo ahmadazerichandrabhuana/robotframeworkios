@@ -47,14 +47,10 @@ udid: 7XXDXXXX-FXXX-XX9X-8XXX-XXXXCXXXFXXX
    ```
 
 ## Open Test Report
-   MacOs : 
-
     open report.html
    Or just drag and drop file `report.html` into your Browser.
 
 ## Open Test Log
-   MacOs : 
-
     open log.html
    Or just drag and drop file `log.html` into your Browser.
 
