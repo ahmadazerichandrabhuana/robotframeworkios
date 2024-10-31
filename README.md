@@ -24,8 +24,9 @@ This is a sample Test Automation for iOS Apps using Robot Framework with Appium 
 
 ## Device Connection
 
-Connect your device to your computer, or open ios Simulator, and check it's udid from XCode (Open XCode go to menu `Window` then choose `Device and Simulators`)
-Put it on file 'env.yaml' line 7 : 
+Connect your device to your computer, or open iOS Simulator, and check it's udid from XCode (Open XCode go to menu `Window` then choose `Device and Simulators`). 
+
+Put the udid on file 'env.yaml' line 7 : 
 ```
 udid: {your device udid}
 sample : 
