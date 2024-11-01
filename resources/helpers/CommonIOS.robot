@@ -30,11 +30,10 @@ Swipe Screen From Top to Down until Element Found, Max Swipe 10 Times
 
 Hide Keyboard
     [Documentation]    Hide iOS Keyboard :
-    ...                First method is by clicking coordinate x=100 and y=100
-    ...                Second method is by click button "Done" or "Return"
-    ...                Choose whichever is best-suited for your condition
-    ...                by un-comment and comment each method
-    @{coordinateXY}=    create list    ${100}   ${100}
+    ...                First method is by clicking coordinate x=101 and y=101
+    ...                Second method is by click both button "Done" and "Return" (ignore any error)
+    ...                Choose whichever is best-suited for your condition, by un-comment and comment each method
+    @{coordinateXY}=    create list    ${101}   ${101}
     @{position}=       create list    ${coordinateXY}
     AppiumLibrary.Tap with Positions   ${1}     @{position}
     # Run Keyword And Ignore Error    AppiumLibrary.Hide Keyboard    key_name=Done
