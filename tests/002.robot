@@ -1,5 +1,5 @@
 ***Settings***
-Resource          ../resources/pages/LoginPage.robot
+Resource          ../resources/pages/ProductsPage.robot
 
 Suite Setup       Suite Setup Config
 Test Setup        Test Setup Config
