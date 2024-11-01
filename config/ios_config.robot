@@ -34,6 +34,7 @@ Suite Setup Config
 
 Test Setup Config
     Open iOS Application
+    Sleep   ${fast_timeout}
 
 Test Teardown Config
     Close All Applications
