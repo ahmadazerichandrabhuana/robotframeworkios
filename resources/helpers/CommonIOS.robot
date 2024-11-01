@@ -29,8 +29,16 @@ Swipe Screen From Top to Down until Element Found, Max Swipe 10 Times
     END
 
 Hide Keyboard
-    [Documentation]    Hide iOS Keyboard
-    AppiumLibrary.Hide Keyboard                    key_name=Done
+    [Documentation]    Hide iOS Keyboard :
+    ...                First method is by clicking coordinate x=100 and y=100
+    ...                Second method is by click button "Done" or "Return"
+    ...                Choose whichever is best-suited for your condition
+    ...                by un-comment and comment each method
+    @{coordinateXY}=    create list    ${100}   ${100}
+    @{position}=       create list    ${coordinateXY}
+    AppiumLibrary.Tap with Positions   ${1}     @{position}
+    # Run Keyword And Ignore Error    AppiumLibrary.Hide Keyboard    key_name=Done
+    # Run Keyword And Ignore Error    AppiumLibrary.Hide Keyboard    key_name=Return
 
 Click Element
     [Arguments]  ${element}
@@ -42,9 +50,9 @@ Input Text to Element
     [Arguments]     ${element}      ${value}
     [Documentation]     Clear and Input a text to an Input Field
     AppiumLibrary.Wait Until Element Is Visible      ${element}
-    Hide Keyboard
     AppiumLibrary.Clear Text                         ${element}
-    AppiumLibrary.Input Text                         ${element}    ${value}
+    AppiumLibrary.Input Text                         ${element}     ${value}
+    Hide Keyboard
 
 Verify Element
     [Arguments]     ${element}
