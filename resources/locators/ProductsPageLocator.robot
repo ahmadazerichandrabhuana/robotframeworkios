@@ -1,2 +1,2 @@
 *** Variables ***
-${textHeaderProducts}=   //XCUIElementTypeStaticText[@name="PRODUCTS"]
+${textHeaderProducts}=   //XCUIElementTypeStaticText[@name="Products"]
