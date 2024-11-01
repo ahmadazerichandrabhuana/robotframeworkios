@@ -1,14 +1,11 @@
 ***Settings***
 Resource   ../helpers/CommonIOS.robot
+Resource   MenuPage.robot
 Resource   ../locators/LoginPageLocator.robot
-Resource   ../locators/ProductsPageLocator.robot
 
 *** Keywords ***
-Verify Header "SWAGLABS" Appear
-    Verify Element 	 ${textHeaderLogin}
-
-Verify Header "SWAGLABS" Appear Failed
-    Verify Element 	 ${textHeaderProducts}
+Open Login Page
+    MenuPage.Select Menu "Log In"
 
 Input Username
     [Arguments]  ${text}
