@@ -41,7 +41,7 @@ udid: 7XXDXXXX-FXXX-XX9X-8XXX-XXXXCXXXFXXX
 
 * Run specific test : 
    ```
-   robot tests/{test file name using extention ".robot"}
+   robot tests/{test file name using extension ".robot"}
    sample :
    robot tests/001.robot
    ```
