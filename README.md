@@ -19,7 +19,7 @@ This is a sample Test Automation for iOS Apps using [Robot Framework](https://ro
 7. Install [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12), and XCode Command Line Tools (`xcode-select --install`).
 8. Install [Node](https://nodejs.org/en/download/package-manager).
 9. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/) and install appium driver `xcuitest`.
-10. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK, trouble shoot if any red "x" appears (you need to google it yourself).
+10. Install and run [appium-doctor](https://www.npmjs.com/package/appium-doctor) to make sure all your appium's dependencies are OK, trouble shoot if any red "x" appears (you need to google it yourself). But for iOS-specific usage, if the error is Android-related issues, they can be ignored.
 11. Download and install this [Demo Apps](https://github.com/saucelabs/my-demo-app-rn/releases) into your iOS Device (`.ipa` file) or iOS Simulator (`.zip` file, extract and put the extracted file into iOS Simulator). Credit to [Wim Selles](https://github.com/wswebcreation).
 
 ## Device Connection
