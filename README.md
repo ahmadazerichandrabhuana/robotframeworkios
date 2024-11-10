@@ -24,9 +24,9 @@ This is a sample Test Automation for iOS Apps using [Robot Framework](https://ro
 
 ## Device Connection
 
-Connect your device to your computer, or open iOS Simulator, and check it's udid from XCode (Open XCode go to menu `Window` then choose `Device and Simulators`). 
+Connect your device to your computer, or open iOS Simulator, and check it's udid (or `identifier`) from XCode (Open XCode go to menu `Window` then choose `Device and Simulators`). 
 
-Put the udid on file `env.yaml` line 7 : 
+Put the udid/identifier on file `env.yaml` line 7 : 
 ```
 udid: {your device udid}
 sample : 
