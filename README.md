@@ -15,7 +15,7 @@ This is a sample Test Automation for iOS Apps using [Robot Framework](https://ro
    ```
    pip install -r requirements.txt
    ```
-6. Install [JDK](https://www.oracle.com/id/java/technologies/downloads/), and update JAVA_HOME to your PATH file. You can refer [here](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe) or Google it.
+6. Install [JDK](https://www.oracle.com/java/technologies/downloads/), and update JAVA_HOME to your PATH file. You can refer [here](https://medium.com/@zorozeri/setting-up-java-home-5abae0118bfe) or Google it.
 7. Install [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12), and XCode Command Line Tools (`xcode-select --install`).
 8. Install [Node](https://nodejs.org/en/download/package-manager).
 9. Install [Appium](https://appium.io/docs/en/2.2/quickstart/install/) and install appium driver `xcuitest`.
