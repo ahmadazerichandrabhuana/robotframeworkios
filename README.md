@@ -66,8 +66,8 @@ This sample Test Automation consists of 3 main folders :
    ```
    Consists of 3 more folders :
    > helpers  : contains any action which might be used globally on any pages
-   > locators : contains web element for each specific web pages
-   > pages    : contains actions which will be performed on each specific web pages
+   > locators : contains page element for each specific apps page screen
+   > pages    : contains actions which will be performed on each specific page screen
    ```
 * tests
    ```
