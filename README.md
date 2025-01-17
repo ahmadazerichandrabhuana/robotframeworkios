@@ -5,7 +5,7 @@ This is a sample Test Automation for iOS Apps using [Robot Framework](https://ro
 > [!NOTE]  
 > I can only try this code on MacOS, since it needs XCode. Not sure it can be used on Windows/Linux or not. Seems too complicated, IMHO.
 
-## Requirements
+## Requirements 
 
 1. Install [VS Code](https://code.visualstudio.com/) or any Code Editor you're comfort with.
 2. Install [python](https://www.python.org/), preferably version **3.9.10** (that's the one I used and having no issue).
